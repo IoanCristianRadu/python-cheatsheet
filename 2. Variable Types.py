@@ -11,5 +11,5 @@ c = None
 answer = 42
 pi = 3.14159
 
-print("\n Float to int")
+print("\nFloat to int")
 print(int(pi))
