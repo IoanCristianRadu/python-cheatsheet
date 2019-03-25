@@ -1,3 +1,10 @@
+# List
+fruit_list = ["apple", "orange", "pear"]
+fruit_list.append("banana")
+print(fruit_list[0])
+print(list("characters"))
+
+# Dictionary
 student = {
     "name": "Mark",
     "student_id": 156,
@@ -24,8 +31,8 @@ print(all_students[0].values())
 print(all_students[1]["name"])
 
 print("\nManually add to a dictionary")
-dictionary = {}
-dictionary["name"] = "charlie"
-dictionary["age"] = 34
+my_dictionary = {}
+my_dictionary["name"] = "charlie"
+my_dictionary["age"] = 34
 
-print(dictionary)
+print(my_dictionary)

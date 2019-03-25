@@ -27,6 +27,17 @@ print("bool(0): ", bool(0))  # Falsy
 print("bool(42): ", bool(42))  # Truthy
 print("bool(-5): ", bool(-5))  # Truthy
 
+# Strings
+my_string = "parrot"
+print("my_string[4]: ", my_string[4])
+
+my_string2 = r"C:\this\that"
+print("r: ", my_string2)
+
+# Bytes
+d = b'some bytes'
+print("Splitting keeps byte objects as bytes: ", d.split())
+
 # Testing
 my_name = "Cristian"
 my_age = 23
