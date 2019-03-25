@@ -4,6 +4,13 @@ if number == 5:
 else:
     print("Number is NOT 5")
 
+if number == 5:
+    print("Number is 5")
+elif number > 5:
+    print("Number is greater than 5")
+else:
+    print("Number is smaller than 5")
+
 if number != 4:
     print("Number is not 4")
 
